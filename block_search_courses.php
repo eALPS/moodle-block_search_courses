@@ -25,6 +25,8 @@ class block_search_courses extends block_base {
 		if ($this->content !== NULL) {
 			return $this->content;
 		}
+		
+		$renderer = $this->page->get_renderer('block_search_courses');
 
 		$this->content = new stdClass;
 		$this->content->text = 'まだ作ってる最中';

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Strings for component 'block_search_courses', language 'en', branch 'MOODLE_23_STABLE'
  *

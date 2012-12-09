@@ -28,7 +28,8 @@ class block_search_courses extends block_base {
 
 		$this->content = new stdClass;
 		$this->content->text = 'まだ作ってる最中';
-		$this->content->footer = 'ここはフッター';
+		$this->content->footer = $renderer->search_form(new moodle_url("$CFG->wwwroot/$CFG->course/search.php"), optional_param('query', '', PARAM_RAW));
+		//$this->content->footer = 'ここはフッター';
 
 /*
 		global $CFG;

@@ -27,10 +27,11 @@ class block_search_courses extends block_base {
 		}
 
 		$this->content = new stdClass;
-		$this->content->text = 'The content of our SimpleHTML block!';
-		$this->content->footer = 'Footer here...';
-		/*
-global $CFG;
+		$this->content->text = 'まだ作ってる最中';
+		$this->content->footer = 'ここはフッター';
+
+/*
+		global $CFG;
 
 		require_once($CFG->libdir . '/filelib.php');
 

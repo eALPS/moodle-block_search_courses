@@ -2,7 +2,7 @@
 
 class block_search_courses_renderer extends plugin_renderer_base {
 
-	public function search_form(moodle_url $formtarget, $searchvalue) {
+	public function search_courses_form(moodle_url $formtarget, $searchvalue) {
 		$content = html_writer::start_tag('form', array('method'=>'get', 'action'=>$formtarget));
 		$content .= html_writer::start_tag('div');
 		$content .= html_writer::tag('label', s(get_string('pluginname', 'block_search_courses')), array('for'=>'coursesearchbox', 'class'=>'accesshide'));

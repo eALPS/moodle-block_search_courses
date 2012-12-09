@@ -22,6 +22,7 @@ class block_search_courses extends block_base {
 	}
 
 	function get_content() {
+		global $CFG;
 		if ($this->content !== NULL) {
 			return $this->content;
 		}
